@@ -14,7 +14,7 @@ const Home = () => {
 
   const history = useHistory();
   const startRegister = () => {
-    history.push("/register");
+    history.push("/authenticate");
   };
   return (
     <div className={styles.cradWrapper}>
@@ -25,11 +25,11 @@ const Home = () => {
           sure nothing breaks
         </p>
         <div>
-          <Button text={"Get your username"} onClick={startRegister} />
+          <Button text={"Let's Go"} onClick={startRegister} />
         </div>
         <div className={styles.signInWrapper}>
           <span className={styles.hasInvite}>Have an invite text?</span>
-          <Link style={signInLinkStyle} to="/login">
+          <Link style={signInLinkStyle} to="/authenticate">
             Sign In
           </Link>
         </div>

@@ -1,0 +1,19 @@
+/* This module will like a global css module for common styling in css modules */
+/* we can use composes in css files to import this styling */
+.cardWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.actionBtnWrapper {
+  margin-top: 20px;
+}
+
+.bottomParagraph {
+  color: #c4c5c5;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 15px;
+}

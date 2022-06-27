@@ -1,0 +1,11 @@
+.cardWrapper {
+  composes: cardWrapper from "../../../App.module.css";
+}
+
+.actionBtnWrapper {
+  composes: actionBtnWrapper from "../../../App.module.css";
+}
+
+.bottomParagraph {
+  composes: bottomParagraph from "../../../App.module.css";
+}
